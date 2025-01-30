@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('register') }}">Register</a>
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('track') }}">Track</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('services') }}">Services</a>
+    </nav>
+    <div class="container">
+        <h1>Welcome to the Ambulance Booking System</h1>
+        <div class="gif-container">
+            <img src="{{ url_for('static', filename='images/animation.gif') }}" alt="Ambulance Animation">
+        </div>
+            <div class="button-container">
+                <a href="#" class="btn"><i class="fas fa-ambulance"></i> Book Ambulance</a>
+            </div>
+            
+        
+    </div>
+</body>
+</html>

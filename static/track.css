@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Page Content */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    width:200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #d87b3d; /* Green color for the button */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #d3770f; /* Darker green color on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+.btn i {
+    margin-right: 8px; /* Space between the icon and text */
+    font-size: 18px; /* Adjust icon size */
+}

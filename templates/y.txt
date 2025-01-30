@@ -1,0 +1,176 @@
+/* Additional Styles */
+.button-container {
+    margin: 20px 0;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #00b336;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.button-container {
+    text-align: center; /* Center text content (button) */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+
+nav a:hover {
+    background-color: #097cf7;
+    color: #ffffff;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav {
+    background-color: #007bff;
+    overflow: hidden;
+
+        display: flex;
+        justify-content:none /* Aligns nav links and image to the edges */
+         center; /* Centers items vertically */
+        padding: 0 10px; /* Adjust padding if needed */
+}
+
+
+
+
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    overflow: hidden;
+
+        display: flex;
+        justify-content: space-between; /* Aligns nav links and image to the edges */
+        align-items: center; /* Centers items vertically */
+        padding: 0 20px; /* Adjust padding if needed */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #097cf7;
+    color: #ffffff;
+}
+
+/* Page Content */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #3093cc;
+    color: rgb(19, 18, 18);
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #00b336;
+}
+
+
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+.nav-image {
+    height: 40px; /* Adjust height as needed */
+    width: auto; /* Maintains aspect ratio */
+}

@@ -1,0 +1,2 @@
+-- This file can be used for schema updates, if needed.
+-- Currently empty as schema is not being updated.

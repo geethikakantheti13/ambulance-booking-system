@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ambulance Booking System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var success = "{{ success }}";
+        if (success === 'True') {
+            alert('book now!');
+        }
+    });
+</script>
+
+
+</head>
+<body>
+    <nav>
+        
+        <a href="{{ url_for('home') }}" class="btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
+
+    </nav>
+    <h1>Login</h1>
+    <form method="post" action="{{ url_for('login') }}">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="VERIFY">
+       
+           
+       
+    </form>
+    
+    
+</body>
+</html>
